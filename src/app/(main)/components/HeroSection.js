@@ -50,17 +50,6 @@ function HeroSection() {
           />
         </SwiperSlide>
       </Swiper>
-
-      <div className="mt-32">
-        <div className="border py-[7px] border-white ">
-          <Link
-            href={""}
-            className={`text-xs md:text-sm py-2 relative md:px-4 px-2 bg-transparent hover:text-blue-950 transition-colors before:absolute before:left-1/2 before:top-0 before:-z-10 before:h-full before:w-full before:origin-center before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] text-white before:hover:scale-x-100 before:hover:left-0 before:hover:right-0`}
-          >
-            See More
-          </Link>
-        </div>
-      </div>
     </>
   );
 }

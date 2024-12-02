@@ -6,16 +6,17 @@ import { IoMdArrowForward } from "react-icons/io";
 function HeroCard({ image, heading, description }) {
   return (
     <div className="bg-cover bg-no-repeat bg-center w-full h-[600px] md:h-[600px] relative">
-      <div className="bg-scroll h-full">
+      <div className="bg-scroll h-full w-full relative">
         <Image
           src={image}
           alt="home"
           layout="fill" // Ensures the image takes up the full container size
           objectFit="cover" // Ensures the image covers the area, maintaining aspect ratio
-          className="absolute inset-0"
+          className="absolute inset-0 object-cover"
+          quality={100} // Make sure the quality is set to 100 to maintain high image quality
         />
         <motion.div
-          className="relative p-4 md:ml-36 md:m-10 m-4 w-72  bg-blue-800 opacity-5 md:w-96 "
+          className="relative p-4 md:ml-36 md:m-10 m-4 w-72 bg-blue-800 opacity-5 md:w-96 bottom-1"
           initial={{
             y: 250,
             opacity: 0,
@@ -48,7 +49,7 @@ function HeroCard({ image, heading, description }) {
               <h1>{heading}</h1>
               <p className="text-sm font-normal">{description}</p>
 
-              <div className=" mx-1 border my-3 py-[7px] border-white text-white w-28 text-sm ">
+              <div className="mx-1 border my-3 py-[7px] border-white text-white w-28 text-sm">
                 <Link
                   href={""}
                   className={`flex items-center justify-between text-xs md:text-sm py-2 relative md:px-4 px-2 bg-transparent hover:text-blue-950 transition-colors before:absolute before:left-1/2 before:top-0 before:-z-10 before:h-full before:w-full before:origin-center before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] text-white before:hover:scale-x-100 before:hover:left-0 before:hover:right-0`}
