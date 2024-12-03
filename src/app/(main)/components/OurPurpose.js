@@ -56,7 +56,7 @@ function OurPurpose() {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-5 mx-4 md:m-10 mt-10  gap-10 bg-white">
+    <div className="grid grid-cols-1 md:grid-cols-5  md:m-10 mt-10  gap-10 bg-white p-10">
       <div className="col-span-1 md:col-span-2 text-blue-900">
         <h1 className="text-sm uppercase">Aerotech Stories</h1>
         <h2 className="text-2xl font-semibod md:text-4xl my-4">
