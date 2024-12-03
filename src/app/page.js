@@ -4,6 +4,7 @@ import OurPurpose from "./(main)/components/OurPurpose";
 import AboutOne from "./(main)/components/AboutOne";
 import MaintananceSimpleSection from "./(main)/components/MaintananceSimpleSection";
 import Maintanance from "./(main)/components/Maintanance";
+import Ndege from "./(main)/components/Ndege";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <MaintananceSimpleSection />
       <AboutOne />
       <Maintanance />
+      <Ndege />
     </>
   );
 }
