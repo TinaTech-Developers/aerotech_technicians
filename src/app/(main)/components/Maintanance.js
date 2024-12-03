@@ -22,7 +22,7 @@ function Maintanance() {
             opacity: { duration: 0.4 },
           }}
           viewport={{ once: true }}
-          className="mt-10 md:mt-32 mx-4 sm:mx-6 md:mx-10 text-white w-full max-w-[380px] sm:max-w-[500px] md:w-96 bg-blue-900 p-6 sm:p-8 md:p-8"
+          className="mt-10 md:mt-32 mx-4 sm:mx-6 md:mx-10 text-white   w-72 md:w-96 bg-blue-900 p-6 sm:p-8 md:p-8"
         >
           <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold">
             Compliance Monitoring
@@ -31,10 +31,10 @@ function Maintanance() {
             Ensuring Aerotech Technicians maintains the highest standards and
             complies with all regulatory requirements.
           </p>
-          <div className="w-full max-w-[150px] sm:max-w-[180px] md:w-32 border border-white">
+          <div className=" w-32 border border-white">
             <Link
               href={""}
-              className="flex items-center justify-between text-xs sm:text-sm md:text-base py-2 relative md:px-4 px-2 bg-transparent hover:text-blue-950 transition-colors before:absolute before:left-1/2 before:top-0 before:-z-10 before:h-full before:w-full before:origin-center before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] text-white before:hover:scale-x-100 before:hover:left-0 before:hover:right-0"
+              className="flex items-center justify-between  py-2 relative md:px-4 px-2 bg-transparent hover:text-blue-950 transition-colors before:absolute before:left-1/2 before:top-0 before:-z-10 before:h-full before:w-full before:origin-center before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] text-white before:hover:scale-x-100 before:hover:left-0 before:hover:right-0"
             >
               See More
             </Link>
