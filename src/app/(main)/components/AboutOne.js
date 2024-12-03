@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function AboutOne() {
   return (
-    <div className=" p-10 bg-whie h-full md:h-96">
+    <div className=" p-10 bg-whie h-full md:h-96 bg-white">
       <h1 className="md:text-3xl text-blue-900 text-2xl">
         About Aerotech Technicians
       </h1>
@@ -27,7 +27,7 @@ function AboutOne() {
             on our ability to handle everything from routine inspections to
             complex overhauls and emergency AOG (Aircraft on Ground) support.
           </p>
-          <div className="w-32 z-10">
+          <div className="w-32 z-50">
             <FillButtonBlue name={"Read More"} link={""} />
           </div>
 
