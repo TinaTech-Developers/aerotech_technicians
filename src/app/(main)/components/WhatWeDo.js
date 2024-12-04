@@ -76,7 +76,7 @@ function WhatWeDo() {
             <FillButtonBlue name={"Learn More"} link={""} />
           </div>
         </div>
-        <div className="col-span-1 p-4 h-96">
+        <div className="col-span-1 p-4 h-72 md:h-96 w-full">
           <div className="flex flex-col items-center justify-center object-cover">
             <Image
               src={"/wire.png"}
@@ -89,11 +89,11 @@ function WhatWeDo() {
         </div>
       </div>
 
-      <div className="p-10 mx-20">
+      <div className="px-10 md:mx-20">
         <h1 className="mb-10    md:text-3xl t text-2xl  text-blue-900 text-center">
           Caliberaton Services
         </h1>
-        <div className=" md:flex items-center justify-between gap-4">
+        <div className=" md:flex items-center justify-center gap-4 ">
           <div className="md:block flex items-center justify-center mb-5">
             <IoMdArrowRoundBack
               size={32}
