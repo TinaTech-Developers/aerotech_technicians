@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function MaintananceSimpleSection() {
   return (
-    <div className="bg-scroll bg-[url('/home2.jpg')] bg-cover bg-no-repeat w-full min-h-screen md:h-[400px] h-[200px] relative">
+    <div className="bg-scroll bg-[url('/home2.jpg')] bg-cover bg-no-repeat w-full md:min-h-screen md:h-[400px] h-[600px] relative">
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent opacity-95">
         <motion.div
           initial={{
