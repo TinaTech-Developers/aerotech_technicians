@@ -7,7 +7,7 @@ import Link from "next/link";
 function Maintanance() {
   return (
     <div className="bg-scroll bg-[url('/Aviation-Maintenance.jpg')] object-cover bg-no-repeat w-full min-h-screen md:h-[400px] h-[400px] relative">
-      <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-black to-transparent opacity-95 h-[400px]">
+      <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-black to-transparent opacity-95 ">
         <motion.div
           initial={{
             x: -100,

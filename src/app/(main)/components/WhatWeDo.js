@@ -83,7 +83,7 @@ function WhatWeDo() {
               alt=""
               height={600}
               width={600}
-              className="h-full  md:h-96 w-80 object-cover "
+              className="h-full  w-fll object-cover "
             />
           </div>
         </div>
