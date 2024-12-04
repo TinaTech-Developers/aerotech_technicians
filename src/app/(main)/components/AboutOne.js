@@ -1,6 +1,7 @@
+"use client";
 import React from "react";
 import FillButtonBlue from "./FillButtonBlue";
-import Link from "next/link";
+import { motion } from "framer-motion";
 
 function AboutOne() {
   return (
@@ -10,23 +11,49 @@ function AboutOne() {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="col-span-1">
-          <p className="text-gray-600 md:mr-4 my-4 leading-loose">
+          <motion.p
+            initial={{
+              y: -100,
+
+              opacity: 0,
+            }}
+            whileInView={{
+              y: 0,
+
+              opacity: 1,
+            }}
+            transition={{ duration: 1.8 }}
+            className="text-gray-600 md:mr-4 my-4 leading-loose"
+          >
             Founded with a vision to redefine the standards of aircraft
             maintenance, Aerotech Technicians has established itself as a
             trusted partner in the aviation industry. With decades of experience
             and a deep understanding of both traditional and next-generation
             aircraft systems, we have built a reputation for providing reliable,
             high-quality maintenance solutions.
-          </p>
+          </motion.p>
         </div>
-        <div className="col-span-1">
-          <p className="text-gray-600 md:mr-4 my-4 leading-loose">
+        <motion.div
+          initial={{
+            y: 100,
+
+            opacity: 0,
+          }}
+          whileInView={{
+            y: 0,
+
+            opacity: 1,
+          }}
+          transition={{ duration: 1.8 }}
+          className="col-span-1"
+        >
+          <motion.p className="text-gray-600 md:mr-4 my-4 leading-loose">
             Our team consists of FAA-certified A&P (Airframe and Powerplant)
             mechanics, avionics specialists, and maintenance managers trained in
             the latest industry technologies and procedures. We pride ourselves
             on our ability to handle everything from routine inspections to
             complex overhauls and emergency AOG (Aircraft on Ground) support.
-          </p>
+          </motion.p>
           <div className="w-32 z-50">
             <FillButtonBlue name={"Read More"} link={""} />
           </div>
@@ -37,7 +64,7 @@ function AboutOne() {
           >
             24/7 Support
           </Link> */}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

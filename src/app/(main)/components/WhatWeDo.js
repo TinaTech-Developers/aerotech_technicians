@@ -60,7 +60,20 @@ function WhatWeDo() {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 px-10 h-full md:h-[500px] p-10 bg-white">
-        <div className="col-span-1 p-4 text-blue-900 ">
+        <motion.div
+          initial={{
+            y: -100,
+
+            opacity: 0,
+          }}
+          whileInView={{
+            y: 0,
+
+            opacity: 1,
+          }}
+          transition={{ duration: 1.8 }}
+          className="col-span-1 p-4 text-blue-900 "
+        >
           <p className="text-sm uppercase">What we do</p>
           <h1 className="text-2xl font-semibod md:text-4xl my-4">
             A comprehensive suite of <br />
@@ -75,17 +88,30 @@ function WhatWeDo() {
           <div className="w-32 z-50">
             <FillButtonBlue name={"Learn More"} link={""} />
           </div>
-        </div>
+        </motion.div>
         <div className="col-span-1 p-4 h-72 ">
-          <div className="flex flex-col items-center justify-center object-cover">
+          <motion.div
+            initial={{
+              y: 100,
+
+              opacity: 0,
+            }}
+            whileInView={{
+              y: 0,
+
+              opacity: 1,
+            }}
+            transition={{ duration: 1.8 }}
+            className="flex flex-col items-center justify-center object-cover"
+          >
             <Image
-              src={"/wire.png"}
+              src={"/plane.avif"}
               alt=""
               height={600}
               width={600}
-              className="h-full  w-fll object-cover "
+              className="h-full  w-fll object-cover border-2 border-blue-900 "
             />
-          </div>
+          </motion.div>
         </div>
       </div>
 

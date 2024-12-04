@@ -57,7 +57,20 @@ function OurPurpose() {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-5  md:m-10 mt-10  gap-10 bg-white p-10">
-      <div className="col-span-1 md:col-span-2 text-blue-900">
+      <motion.div
+        initial={{
+          x: -100,
+
+          opacity: 0,
+        }}
+        whileInView={{
+          x: 0,
+
+          opacity: 1,
+        }}
+        transition={{ duration: 0.8 }}
+        className="col-span-1 md:col-span-2 text-blue-900"
+      >
         <h1 className="text-sm uppercase">Aerotech Stories</h1>
         <h2 className="text-2xl font-semibod md:text-4xl my-4">
           Our Mission in
@@ -80,7 +93,7 @@ function OurPurpose() {
             onClick={goNext} // Trigger slide to next slide on click
           />
         </div>
-      </div>
+      </motion.div>
       <div className="col-span-1 md:col-span-3 ">
         <StyledSwiper
           ref={swiperRef} // Attach the swiper instance to the ref
