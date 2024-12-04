@@ -5,6 +5,7 @@ import AboutOne from "./(main)/components/AboutOne";
 import MaintananceSimpleSection from "./(main)/components/MaintananceSimpleSection";
 import Maintanance from "./(main)/components/Maintanance";
 import WhatWeDo from "./(main)/components/WhatWeDo";
+import QualityAndSafety from "./(main)/components/QualityAndSafety";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutOne />
       <Maintanance />
       <WhatWeDo />
+      <QualityAndSafety />
     </>
   );
 }

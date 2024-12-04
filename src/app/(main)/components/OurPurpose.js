@@ -120,7 +120,7 @@ function OurPurpose() {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              image={""}
+              image={"/safety.jpg"}
               heading={"Safety & Reliability"}
               description={
                 "Your aircraft's safety is our top priority. We adhere to the highest industry standards to provide reliable and secure maintenance services."
@@ -138,7 +138,7 @@ function OurPurpose() {
           </SwiperSlide>
           <SwiperSlide>
             <Card
-              image={""}
+              image={"/safety.webp"}
               heading={"Skilled & Certified Technicians"}
               description={
                 "Our team consists of highly trained and certified professionals with extensive experience in aircraft maintenance. We ensure that your aircraft is always in expert hands."
