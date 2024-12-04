@@ -16,7 +16,7 @@ export default function Home() {
       <AboutOne />
       <Maintanance />
       <WhatWeDo />
-      {/* <QualityAndSafety /> */}
+      <QualityAndSafety />
     </>
   );
 }

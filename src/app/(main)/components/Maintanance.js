@@ -10,16 +10,16 @@ function Maintanance() {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent opacity-95">
         <motion.div
           initial={{
-            x: -100,
-            scale: 0,
+            y: -100,
+
             opacity: 0,
           }}
           whileInView={{
-            x: 0,
-            scale: 1,
+            y: 0,
+
             opacity: 1,
           }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 1.8 }}
           className="mt-[30%] md:mt-32 mx-4 sm:mx-6 md:mx-10 text-white  w-72 md:w-96 bg-blue-900 p-4 sm:p-4 md:p-8"
         >
           <div className="p-2 border-4">
