@@ -76,14 +76,14 @@ function WhatWeDo() {
             <FillButtonBlue name={"Learn More"} link={""} />
           </div>
         </div>
-        <div className="col-span-1 p-4 h-72 md:h-96 w-full">
+        <div className="col-span-1 p-4 h-72 ">
           <div className="flex flex-col items-center justify-center object-cover">
             <Image
               src={"/wire.png"}
               alt=""
               height={600}
               width={600}
-              className="h-full w-full "
+              className="h-full  md:h-96 w-80 object-cover "
             />
           </div>
         </div>
