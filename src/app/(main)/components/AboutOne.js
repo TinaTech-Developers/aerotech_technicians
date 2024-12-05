@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function AboutOne() {
   return (
-    <div className=" p-10 bg-whie h-full md:h-96 bg-white">
+    <div className=" py-10 px-5 bg-whie h-full md:h-96 bg-white">
       <h1 className="md:text-3xl text-blue-900 text-2xl">
         About Aerotech Technicians
       </h1>

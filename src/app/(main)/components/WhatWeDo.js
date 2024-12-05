@@ -60,7 +60,7 @@ function WhatWeDo() {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 px-10 h-full md:h-[500px] p-10 bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 px-5 h-full md:h-[500px] py-10 md:mb-10 bg-white">
         <motion.div
           initial={{
             y: -100,
@@ -80,7 +80,7 @@ function WhatWeDo() {
             A comprehensive suite of <br />
             services
           </h1>
-          <p className="my-6 leading-loose text-gray-600">
+          <p className="my-6 leading-loose text-gray-600  md:mr-4">
             We provide nose-to-tail solutions that address the various
             maintenance, overhaul, and repair requirements of airlines
             worldwide. We can deliver because we have the personnel, the

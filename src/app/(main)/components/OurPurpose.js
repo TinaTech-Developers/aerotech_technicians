@@ -56,7 +56,7 @@ function OurPurpose() {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-5  md:m-10 mt-10  gap-10 bg-white p-10">
+    <div className="grid grid-cols-1 md:grid-cols-5  md:m-10 mt-10  gap-10 bg-white py-10">
       <motion.div
         initial={{
           x: -100,
