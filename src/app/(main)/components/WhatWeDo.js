@@ -73,7 +73,7 @@ function WhatWeDo() {
             opacity: 1,
           }}
           transition={{ duration: 1.8 }}
-          className="col-span-1 p-4 text-blue-900 "
+          className="col-span-1 py-4 text-blue-900 "
         >
           <p className="text-sm uppercase">What we do</p>
           <h1 className="text-2xl font-semibod md:text-4xl my-4">
@@ -90,7 +90,7 @@ function WhatWeDo() {
             <FillButtonBlue name={"Learn More"} link={""} />
           </div>
         </motion.div>
-        <div className="col-span-1 p-4 h-96 ">
+        <div className="col-span-1 py-4 h-96 ">
           <motion.div
             initial={{
               y: 100,
@@ -110,7 +110,7 @@ function WhatWeDo() {
               alt=""
               height={600}
               width={600}
-              className="h-96  w-80 md:w-full md:h-full object-cover border-2 border-blue-900 "
+              className="h-96  w-full md:h-full object-cover border-2 border-blue-900 "
             />
           </motion.div>
         </div>

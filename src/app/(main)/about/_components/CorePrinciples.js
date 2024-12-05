@@ -16,7 +16,7 @@ function CorePrinciples() {
             opacity: 1,
           }}
           transition={{ duration: 2.8 }}
-          className="md:text-3xl text-blue-900 text-2xl capitalize font-semibold md:font-normal text-center md:text-start"
+          className="md:text-3xl text-blue-900 text-2xl capitalize f text-start"
         >
           core principles
         </motion.h1>
