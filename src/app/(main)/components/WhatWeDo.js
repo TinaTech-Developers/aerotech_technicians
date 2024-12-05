@@ -42,6 +42,7 @@ const StyledSwiper = styled(Swiper)`
 `;
 
 import FillButtonBlue from "./FillButtonBlue";
+import Promotion from "./Promotion";
 
 function WhatWeDo() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -89,7 +90,7 @@ function WhatWeDo() {
             <FillButtonBlue name={"Learn More"} link={""} />
           </div>
         </motion.div>
-        <div className="col-span-1 p-4 h-72 ">
+        <div className="col-span-1 p-4 h-96 ">
           <motion.div
             initial={{
               y: 100,
@@ -109,13 +110,13 @@ function WhatWeDo() {
               alt=""
               height={600}
               width={600}
-              className="h-full  w-fll object-cover border-2 border-blue-900 "
+              className="h-96  w-80 md:w-full md:h-full object-cover border-2 border-blue-900 "
             />
           </motion.div>
         </div>
       </div>
-
-      <div className="px-10 md:mx-20">
+      <Promotion />
+      <div className="px-10 md:mx-20 my-5 md:mt-10">
         {/* <h1 className="mb-10    md:text-3xl t text-2xl  text-blue-900 text-center">
           Caliberaton Services
         </h1> */}
