@@ -34,7 +34,7 @@ function CorePrinciples() {
           transition={{ duration: 2.8 }}
           className="p-4 md:h-24 h-full w-full border shadow-2xl"
         >
-          <div class="md:h-16 h-full border-l-4 px-2  border-blue-500">
+          <div class="md:h-16 h-full border-l-4 px-2 md:pl-6 border-blue-500">
             <h1 className="text-xl py-1 text-blue-500">Vision</h1>
             <p className="text-gray-600">
               To be the best one stop shop for all your general aviation
@@ -54,7 +54,7 @@ function CorePrinciples() {
           transition={{ duration: 2.8 }}
           className="p-4 md:h-24 h-full w-full border shadow-2xl"
         >
-          <div class="md:h-16 h-full border-l-4 px-2  border-blue-500">
+          <div class="md:h-16 h-full border-l-4 px-2 md:pl-6 border-blue-500">
             <h1 className="text-xl py-1 text-blue-500">Mission</h1>
             <p className="text-gray-600">
               To make aircraft maintenance safe and affordable
@@ -73,7 +73,7 @@ function CorePrinciples() {
           transition={{ duration: 2.8 }}
           className="p-4 h-full w-full border shadow-2xl"
         >
-          <div class="h-full border-l-4 px-2  border-blue-500">
+          <div class="h-full border-l-4 px-2 md:pl-6 border-blue-500">
             <h1 className="text-xl py-1 text-blue-500">Core Values</h1>
             <h2 className="py-1 pt-4 text-blue-500">Commitment</h2>
             <p className="text-gray-600">
