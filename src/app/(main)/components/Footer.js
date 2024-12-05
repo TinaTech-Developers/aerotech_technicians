@@ -54,10 +54,10 @@ function Footer() {
           </span>
         </div>
       </div>
-      <hr />
+      <hr className="my-5 md:my-0" />
       <span className="flex items-center justify-center text-white mt-2">
         Developed by{" "}
-        <Link className="text-blue-900" href={"www:tinasoftnexus.co.zw"}>
+        <Link className="text-blue-900" href={"www.tinasoftnexus.co.zw"}>
           TinaSoft Nexus
         </Link>
       </span>

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function QualityAndSafety() {
   return (
-    <div className="bg-scroll bg-[url('/new.avif')] bg-cover bg-no-repeat w-full md:min-h-screen md:h-[400px] h-[600px] relative">
+    <div className="bg-scroll bg-[url('/new.avif')] bg-cover bg-no-repeat w-full md:min-h-screen md:h-[400px] h-[700px] relative">
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent opacity-95">
         <div className="flex flex-col items-center justify-center text-white z-50 pt-10 md:mt-10 mx-auto">
           <motion.h1
