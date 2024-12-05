@@ -136,7 +136,7 @@ function WhatWeDo() {
             // pagination={{ clickable: true }}
             onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
             autoplay={{
-              delay: 3000, // Auto slide every 3 seconds
+              delay: 8000, // Auto slide every 3 seconds
               disableOnInteraction: false, // Allow auto-slide even when interacting
             }}
             loop={true} // Explicitly enable loop
@@ -236,15 +236,15 @@ function WhatWeDo() {
       <motion.div
         initial={{
           opacity: 0,
-          scale: 0,
-          x: -100,
+          // scale: 0,
+          y: -100,
         }}
         whileInView={{
           opacity: 1,
-          scale: 1,
-          x: 0,
+          // scale: 1,
+          y: 0,
         }}
-        transition={{ duration: 0.9 }}
+        transition={{ duration: 1.9 }}
         className="flex flex-col justify-center items-center w-80 h-96 md:w-60 border bg-blue-900 text-white hover:text-gray-600  opacity- p-4 hover:bg-white hover:shadow-2xl"
       >
         <h1 className="font-semibold text-lg capitalize">{heading}</h1>

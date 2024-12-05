@@ -9,7 +9,7 @@ function page() {
     <div className="mt-20">
       <SubHero heading={"About Us"} image={"/about.jpg"} />
       <AboutOne />
-      <div className="p-10">
+      <div className="py-10 px-5">
         <CorePrinciples />
       </div>
       <Promotion />
