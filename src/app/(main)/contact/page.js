@@ -5,6 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
 import SubHero from "../components/SubHero";
+import Promotion from "../components/Promotion";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -112,6 +113,7 @@ function Contact() {
           </form>
         </div>
       </div>
+      <Promotion />
     </>
   );
 }

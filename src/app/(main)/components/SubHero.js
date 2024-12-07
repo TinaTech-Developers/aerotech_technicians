@@ -49,7 +49,7 @@ function SubHero({ image, heading, description }) {
               <h1>{heading}</h1>
               <p className="text-sm font-normal">{description}</p>
 
-              <div className="mx-1 border my-3 py-[7px] border-white text-white w-28 text-sm">
+              <div className="hidden md:block mx-1 border my-3 py-[7px] border-white text-white w-28 text-sm">
                 <Link
                   href={""}
                   className={`flex items-center justify-between text-xs md:text-sm py-2 relative md:px-4 px-2 bg-transparent hover:text-blue-950 transition-colors before:absolute before:left-1/2 before:top-0 before:-z-10 before:h-full before:w-full before:origin-center before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] text-white before:hover:scale-x-100 before:hover:left-0 before:hover:right-0`}
