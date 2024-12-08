@@ -14,27 +14,27 @@ function Contact() {
 
   const [submitting, setSubmitting] = useState(false);
 
-  // const form = useRef();
+  const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm("service_83tjn5l", "template_stpplth", form.current, {
-  //       publicKey: "Eo9uSp3q7FYq9TxKF",
-  //     })
-  //     .then(
-  //       () => {
-  //         toast.success("Email sent successfully");
-  //         setName("");
-  //         setEmail("");
-  //         setMessage("");
-  //       },
-  //       (error) => {
-  //         toast.error("FAILED...", error.text);
-  //       }
-  //     );
-  // };
+    emailjs
+      .sendForm("service_83tjn5l", "template_stpplth", form.current, {
+        publicKey: "Eo9uSp3q7FYq9TxKF",
+      })
+      .then(
+        () => {
+          toast.success("Email sent successfully");
+          setName("");
+          setEmail("");
+          setMessage("");
+        },
+        (error) => {
+          toast.error("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <>
       <SubHero
