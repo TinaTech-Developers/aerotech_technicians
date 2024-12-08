@@ -14,27 +14,27 @@ function Contact() {
 
   const [submitting, setSubmitting] = useState(false);
 
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm("service_83tjn5l", "template_stpplth", form.current, {
-        publicKey: "Eo9uSp3q7FYq9TxKF",
-      })
-      .then(
-        () => {
-          toast.success("Email sent successfully");
-          setName("");
-          setEmail("");
-          setMessage("");
-        },
-        (error) => {
-          toast.error("FAILED...", error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm("service_83tjn5l", "template_stpplth", form.current, {
+  //       publicKey: "Eo9uSp3q7FYq9TxKF",
+  //     })
+  //     .then(
+  //       () => {
+  //         toast.success("Email sent successfully");
+  //         setName("");
+  //         setEmail("");
+  //         setMessage("");
+  //       },
+  //       (error) => {
+  //         toast.error("FAILED...", error.text);
+  //       }
+  //     );
+  // };
   return (
     <>
       <SubHero
@@ -100,7 +100,7 @@ function Contact() {
               <div className="flex items-end">
                 <div className="border py-[px] border-blue-950 w-24 text-center">
                   <button
-                    onClick={sendEmail}
+                    onClick={() => {}}
                     type="submit"
                     className={`text-sm py-2 w-24 relative px-4  bg-transparent text-gray-900 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-blue-950 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100`}
                   >
