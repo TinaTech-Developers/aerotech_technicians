@@ -42,8 +42,11 @@ function Contact() {
         heading={"Contact us"}
         description={""}
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 p-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 py-10 px-5">
         <div className="flex flex-col items-center justify-center mt-16 p-2 bg-gray-900">
+          <h1 className="md:hidden text-2xl text-white mb-2">
+            Where to find us
+          </h1>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3799.841691585637!2d30.92431497517325!3d-17.752096883198526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a9b733746d4d%3A0xfb90691621f22626!2sCharles%20Prince!5e0!3m2!1sen!2szw!4v1733400005846!5m2!1sen!2szw"
             width="800"
