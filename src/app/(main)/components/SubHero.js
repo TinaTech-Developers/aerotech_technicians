@@ -16,7 +16,7 @@ function SubHero({ image, heading, description }) {
           quality={100} // Make sure the quality is set to 100 to maintain high image quality
         />
         <motion.div
-          className="relative p-4 md:ml-36 md:m-10 m-4 w-72 bg-blue-800 opacity-5 md:w-96 bottom-16 md:botton-0"
+          className="relative p-4 md:ml-36 md:m-10 m-4 w-48 bg-blue-800 opacity-5 md:w-60 md:bottom-16 md:botton-0"
           initial={{
             y: 250,
             opacity: 0,
